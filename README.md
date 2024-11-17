@@ -3,7 +3,7 @@
 
   O projeto Capstone, parte da disciplina CCD210 – Fundamentos de Ciência e Visualização de Dados do curso de CDIA na Universidade FEI, tem como objetivo principal aplicar os conceitos de análise de dados, utilizando o framework CRISP-DM (Cross Industry Standard Process for Data Mining) para guiar a estrutura do trabalho. Este processo inclui as fases de compreensão do problema, análise e preparação dos dados, modelagem, avaliação e apresentação dos resultados, permitindo uma abordagem sistemática e eficaz na solução de problemas utilizando-se de dados.
   
-  O tema a ser explorado deve ser relacionado com um dos 17 Objetivos de desenvolvimento sustentável da onu, e a questão discutida nesse projeto será o suicídio no Brasil ao longo dos anos, um assunto relevante e que está em alinhamento com a [ODS 3](https://brasil.un.org/pt-br/sdgs/3) (Saúde e Bem-Estar), que busca garantir o acesso à saúde de qualidade e promover o bem-estar para todos, em todas as idades.
+  O tema a ser explorado deve ser relacionado com um dos 17 objetivos de desenvolvimento sustentável da ONU, e a questão discutida nesse projeto será o suicídio no Brasil ao longo dos anos, um assunto relevante e que está em alinhamento com a [ODS 3](https://brasil.un.org/pt-br/sdgs/3) (Saúde e Bem-Estar), que busca garantir o acesso à saúde de qualidade e promover o bem-estar para todos, em todas as idades.
     
   Os dados utilizados vêm de uma base pública do [Kaggle](https://www.kaggle.com/), que inclui informações detalhadas como ano, sexo, faixa etária, número de suicídios, entre outros. A análise desse conjunto de dados possibilita uma visão sobre como diferentes fatores influenciam as taxas de suicídio, o que contribui para uma compreensão mais aprofundada da saúde pública. Com isso, espera-se identificar padrões que possam oferecer insights importantes para a formulação de políticas e intervenções mais eficazes.
 
@@ -57,6 +57,11 @@
 
 ## Avaliação
 
+  Analisando os resultados obtidos no processo de modelagem, começando pelo gráfico 1, que apresenta o número total de suicídios por faixa etária no Brasil entre os anos de 1990 e 2015, podemos ver claramente a predominância dos suicídios na faixa etária de 35 a 54 anos, seguida pelas faixas de 25 a 34 anos e 15 a 24 anos. Esse padrão indica que a maior parte dos suicídios está concentrada nas pessoas em idade produtiva, o que pode estar relacionado com estresse no trabalho, instabilidade econômica e problemas de saúde mental, que são mais comuns nessa fase da vida. A análise também sugere que as medidas e campanhas contra suicídio no Brasil podem ser mais eficazes se forem direcionadas especificamente à classe trabalhadora, sendo uma possível forma de alcançar esse público, a promoção de campanhas no ambiente de trabalho.
+  
+  No gráfico 2 comparamos o número de suicídios por gênero, essa comparação mostrou uma disparidade enorme, com os homens cometendo suicídios em números muito maiores do que as mulheres. Esses dados apontam para uma série de fatores complexos, sendo um deles a dificuldade que os homens têm de expressar suas emoções ou buscar ajuda profissional. Em muitas culturas, ainda é forte a ideia de que "homem não chora" ou que pedir ajuda para um psicólogo, é sinal de fraqueza, mas é certo que com o aumento da conscientização sobre saúde mental essas ideias vão diminuindo gradualmente. Outra possível análise é que o mercado de trabalho, muitas vezes, pode ser um ambiente cruel, e sabendo que a participação dos homens no mercado de trabalho é superior à das mulheres, é um fator a se considerar, embora a diferença tenha diminuído ao longo dos anos.
+
+  No gráfico 3, que representa a taxa de suicídios a cada 100.000 habitantes, é possível observar que a taxa variou ao longo dos anos, seguindo uma tendência geral de subir. Essa tendência de crescimento é semelhante à dos outros gráficos, que também demonstram o comportamento dos suicídios ao longo do tempo, com um aumento constante na maioria dos casos. A análise dessa taxa por 100.000 habitantes ajuda principalmente em comparações, é mais uma forma de vizualizar os mesmos dados.
 
   
 
@@ -66,6 +71,4 @@
 
 
 
-
-  
   
