@@ -63,6 +63,10 @@
 
   No gráfico 3, que representa a taxa de suicídios a cada 100.000 habitantes, é possível observar que a taxa variou ao longo dos anos, seguindo uma tendência geral de subir. Essa tendência de crescimento é semelhante à dos outros gráficos, que também demonstram o comportamento dos suicídios ao longo do tempo, com um aumento constante na maioria dos casos. A análise dessa taxa por 100.000 habitantes ajuda principalmente em comparações, é mais uma forma de vizualizar os mesmos dados.
 
+## Conclusão
+
+  Neste projeto aplicamos alguns conceitos de analise de dados utilizando o framework CRISP-DM com o tema "suicídio no Brasil entre 1990 e 2015". Temos como objetivo final reforçar o valor da análise de dados como uma ferramenta fundamental para entender e abordar questões complexas, como o suicídio, e como ela pode auxiliar na criação de soluções mais eficazes e baseadas em evidências.
+
   
 
 
