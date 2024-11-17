@@ -65,7 +65,7 @@
 
 ## Conclusão
 
-  Neste projeto aplicamos alguns conceitos de analise de dados utilizando o framework CRISP-DM com o tema "suicídio no Brasil entre 1990 e 2015". Temos como objetivo final reforçar o valor da análise de dados como uma ferramenta fundamental para entender e abordar questões complexas, como o suicídio, e como ela pode auxiliar na criação de soluções mais eficazes e baseadas em evidências.
+  Neste projeto aplicamos alguns conceitos de analise de dados utilizando o framework CRISP-DM com o tema "suicídio no Brasil entre 1990 e 2015". Temos como objetivo final deixar claro o valor da análise de dados como uma ferramenta fundamental para entender e abordar questões complexas, como o suicídio, e como ela pode auxiliar na criação de soluções mais acertivas e baseadas em evidências.
 
   
 
