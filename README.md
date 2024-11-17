@@ -37,6 +37,27 @@
 
 ## Modelagem
 
+  Na etapa de modelagem, começamos utilizando das nossas tabelas derivadas para fazer uma regressão linear, representando a tendência de crescimento no número de suicídios entre os anos de 1990 e 2015.
+  
+![image](https://github.com/user-attachments/assets/2c065c0c-9d5b-4019-a516-3eedfdb69ce5)
+
+  Após a regressão linear, vamos para a construção de gráficos utilizando Python, com base nas mesmas tabelas derivadas. Criamos esses gráficos para complementar a análise visual e facilitar a interpretação dos dados.
+  
+* GRÁFICO 1
+
+![image](https://github.com/user-attachments/assets/246f48c8-9bd1-48c7-833e-a4123b5c5eef)
+
+* GRÁFICO 2
+
+![image](https://github.com/user-attachments/assets/e074506d-e81e-429b-a205-226cbe079293)
+
+* GRÁFICO 3
+
+![image](https://github.com/user-attachments/assets/933d66f7-7cf4-4925-90fe-2d70d024b528)
+
+
+  
+
 
 
 
