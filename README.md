@@ -23,4 +23,6 @@
 
   O agrupamento dos dados por ano, também pode ajudar a identificar tendências ao longo do tempo, como o aumento ou diminuição das taxas de suicídio, e analisar a relação desses números com o aumento populacional ao longo dos anos. A capacidade de gerar essas colunas derivadas não só facilita a visualização de padrões, mas também fornece insights que podem ser essenciais para a formulação de estratégias mais eficazes de prevenção ao suicídio.
 
+## Preparação dos Dados
+
   
