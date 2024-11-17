@@ -17,7 +17,7 @@
 
 ## Compreensão dos Dados
 
-  A base de dados utilizada neste projeto foi retirada do Kaggle, especificamente do conjunto de dados "[Suicide Rates Overview 1985 to 2016](https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016)". Este conjunto de dados contém informações sobre as taxas de suicídio em diversos países ao longo de vários anos. No entanto, para este projeto, foi selecionado apenas o subconjunto de dados referente ao Brasil e o período de 1990 a 2015. As colunas presentes no conjunto de dados incluem detalhes como o país, ano, sexo, faixa etária, número de suicídios, população correspondente e a taxa de suicídios por 100 mil habitantes. Esses dados brutos, que inicialmente parecem complexos, podem ser rapidamente explorados e enriquecidos para que possamos ter uma visão mais clara sobre o problema, permitindo a criação de colunas derivadas que ajudam na análise mais detalhada.
+  A base de dados utilizada neste projeto foi retirada do Kaggle, de um dataset chamado "[Suicide Rates Overview 1985 to 2016](https://www.kaggle.com/datasets/russellyates88/suicide-rates-overview-1985-to-2016)". Esse dataset contém informações sobre as taxas de suicídio em diversos países ao longo de vários anos. No entanto, para esse projeto, foi selecionado apenas o subconjunto dos dados referentes ao Brasil e o período de 1990 a 2015. As colunas presentes no dataset incluem informações como o país, ano, sexo, faixa etária, número de suicídios, população correspondente e a taxa de suicídios por 100 mil habitantes. Esses dados brutos, que inicialmente parecem complexos, podem ser rapidamente explorados e enriquecidos para que possamos ter uma visão mais clara sobre o problema, permitindo a criação de colunas derivadas que ajudam na análise mais detalhada.
 
   Ao olhar para as informações contidas nas colunas do dataset, podemos calcular o total de suicídios em cada ano, além de segmentá-los por sexo e faixa etária. Essa divisão nos daria uma boa visão geral das diferenças nos índices de suicídio entre homens e mulheres e como essas taxas variam conforme as idades. A classificação por faixa etária, em particular, pode revelar padrões interessantes, como um aumento significativo de suicídios entre determinados grupos etários, o que poderia indicar uma necessidade de soluções mais direcionadas a grupos específicos.
 
@@ -25,4 +25,22 @@
 
 ## Preparação dos Dados
 
+  Na etapa da preparação dos dados, iniciamos abrindo o arquivo no Excel. Primeiramente, filtramos e apagamos mais ou menos 27.500 linhas de dados, mantendo apenas os dados relacionados ao Brasil. Em seguida, excluímos linhas fora do período de 1990 a 2015, mantendo somente os dados registrados dentro dessa faixa de tempo.
+
+  Em seguida, identificamos que uma das colunas tinha uma grande quantidade de dados faltantes, e como a quantidade de dados faltantes era muito alta e não tinha uma maneira adequada de preenchê-los, removemos essa coluna da base de dados. Além disso, também excluímos outras colunas que não seriam úteis para a análise, como a coluna "country-year", que era redundante, pois já temos as colunas "country" e "year" separadas, e considerando que só será feita a análise do Brasil, também podemos eliminar a coluna "country". Dessa forma, simplificamos a base de dados, deixando apenas as informações importantes para a análise.
+
+  Após a limpeza dos dados, foram feitas mudanças na coluna "sexo" para facilitar sua utilização em modelos e análises quantitativas. Utilizamos o método de label encoding, que converte valores categóricos em valores numéricos. Nesse processo, colocamos o valor 0 à categoria "masculino" e o valor 1 à categoria "feminino".
+
+  Com base nos dados originais, criamos uma tabela derivada que mostra uma visão geral dos dados de suicídios no Brasil entre 1990 e 2015 e outra que mostra a quantidade total de suicídios por faixa etária ao longo de todos esses anos.
+  
+![image](https://github.com/user-attachments/assets/b5e323c1-8bcc-4480-823c-a5bdcfff8e3c) ![image](https://github.com/user-attachments/assets/8d7021f4-3ff0-4da4-adcf-114c82487e2b)
+
+
+
+
+
+
+
+
+  
   
